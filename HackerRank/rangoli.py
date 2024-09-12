@@ -4,7 +4,7 @@ def rangoli(size):
     value = '-'.join(list(alpha))
     real_value =  value[::-1] + value[1:]
     result = []
-    indeks = 3
+    indeks = 6
     for i in range(size):
         char = real_value[:indeks]
         yeah = char + char[-2::-1]
